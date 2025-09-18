@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosatte Coffee</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libertinus+Serif+Display&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+  </head>
+  <body>
+     <div class="page-content">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#loyalty">Loyalty Card</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <a href="#home" class="logo">
+              <img src="assets/img/logo.png" alt="Rosatte Coffee logo" />
+            </a>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+    <!-- Hero Container -->
+    <section id="home" class="hero-container">
+      <!-- Left: Slider -->
+      <div class="hero-left">
+        <div class="hero-slider" aria-live="polite">
+          <article class="slide is-active">
+            <img src="assets/img/coffeeshop_slide1.png" alt="Coffee Shop" />
+            <div class="slide-text" id="slidetxt">
+              <h2>Welcome to Rosatte Coffee <span>♡</span></h2>
+              
+            </div>
+          </article>
+          <article class="slide">
+            <img src="assets/img/rosatte_slide2.png" alt="Rosatte Latte" />
+            <div class="slide-text" id="slidetxt2">
+              <h2>Signature Rosatte Latte</h2>
+              <p>
+                A delicate infusion of rose and espresso, crafted for pure
+                indulgence.
+              </p>
+            </div>
+          </article>
+          <article class="slide">
+            <img
+              src="assets/img/matcha cappuchino_slide3.png"
+              alt="Matcha Cappuccino"
+            />
+            <div class="slide-text">
+              <h2>Matcha Cappuccino</h2>
+              <p>
+                A fusion of tradition and trend — vibrant, creamy, and
+                energizing.
+              </p>
+            </div>
+          </article>
+          <article class="slide">
+            <img
+              src="assets/img/Salted Caramel Frappuccinos at Rosatte Cafe.png"
+              alt="Salty Caramel Latte"
+            />
+            <div class="slide-text">
+              <h2>Salty Caramel Latte</h2>
+              <p>
+                Where sweet meets bold — smooth caramel with a playful salty
+                twist.
+              </p>
+            </div>
+          </article>
+
+          <!-- Controls -->
+          <button class="hero-nav prev" aria-label="Previous slide">‹</button>
+          <button class="hero-nav next" aria-label="Next slide">›</button>
+          <div class="hero-dots"></div>
+        </div>
+      </div>
+
+      <!-- Right: About Section -->
+      <div class="hero-right">
+        <div class="hero-right-overlay">
+          <h1>Welcome to Rosatte Coffee</h1>
+          <p>
+            A French-inspired coffeehouse bringing elegance, taste, and
+            tradition together. Enjoy our crafted blends in a cozy atmosphere
+            made just for you.
+          </p>
+          <a href="about.html" class="cta-btn">Learn more about us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loyalty Card Section -->
+   <section id="loyalty" class="loyalty-section">
+  <!-- Left side: flipping card -->
+  <div class="loyalty-left">
+    <div class="card-flip">
+      <div class="card-inner">
+        <img src="assets/img/rosattecard.png" 
+             alt="Rosatte Loyalty Card Front" 
+             class="card-front">
+        <img src="assets/img/rosattecard2.png" 
+             alt="Rosatte Loyalty Card Back" 
+             class="card-back">
+      </div>
+    </div>
+  </div>
+
+  <!-- Right side: info -->
+  <div class="loyalty-right">
+    <h2>Join the Rosatte Loyalty Club</h2>
+    <p>
+      Sip by sip, your moments with us turn into rewards. 
+      Collect 9 cups and your 10th coffee is free — our way of saying merci.
+    </p>
+
+    <ul class="perks">
+      <li>✔ Every 10th coffee free</li>
+      <li>✔ Seasonal specials for members</li>
+      <li>✔ Invitations to exclusive café events</li>
+    </ul>
+
+    <button id="loyalty-btn">Get Your Card</button>
+  </div>
+</section>
+<br>
+
+</main>
+
+    <!-- Footer -->
+  <footer class="footer">
+        <div class="footer-container">
+            <!-- Left: Menu Details -->
+            <div class="footer-section footer-menu">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#loyalty">Loyalty Card</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#branches">Branches</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Center: Logo -->
+            <div class="footer-section footer-logo">
+                <img src="assets/img/logo.png" alt="Rosatte Coffee Logo">
+            </div>
+            
+            <!-- Right: Socials -->
+            <div class="footer-section footer-socials">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom (Copyright) -->
+        <div class="footer-bottom">
+            <p class="footer-tagline">🌹 Crafted with love in Paris · Sip the Moment 🌹</p>
+            <p>© 2025 Rosatte Coffee · All Rights Reserved</p>
+        </div>
+    </div>
+    </footer>
+
+
+
+    <script src="hero-slider.js"></script>
+    </div>
+  </body>
+</html>
